@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.wrapper{
+    display: flex;
+    position: absolute;
+    top: auto;
+    left: 30%;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+button{
+    padding: 15px 10px;
+    background-color: rgb(9, 21, 71);
+    margin-right: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: 100px;
+
+}
+
+button:disabled{
+    background-color: gray;
+    opacity: 0.8;
+    color: white;
+    cursor: not-allowed;
+}
+
+   
